@@ -67,3 +67,36 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.delete {
+  background-color: rgba(209, 15, 15, 0.644);
+}
+
+.delete:focus,
+.delete:focus-visible {
+  outline: 4px auto red;
+}
+
+.delete:hover {
+  border-color: red;
+}
+
+table {
+  width: 80vw;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.primary {
+  background-color: rgba(0, 225, 255, 0.495);
+}
+
+.primary:hover {
+  background-color: rgba(0, 225, 255, 0.6);
+  border-color: rgb(0, 225, 255);
+}
